@@ -4,9 +4,9 @@
   "description": "API for processing refunds",
   "author": "Marlon Chiodelli <marlonchiodelli@hotmail.com>",
   "license": "ISC",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
   "dependencies": {
