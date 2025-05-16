@@ -25,7 +25,7 @@ export const errorHandling: ErrorRequestHandler = (
   }
 
   response.status(500).json({
-    messag: error.message,
+    message: error.message,
   });
 
   return;
